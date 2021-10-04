@@ -1,0 +1,44 @@
+.card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.card-heading {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+
+.card-field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 20px;
+    row-gap: 30px;
+    max-width: 1140px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    border: 5px solid #fff;
+}
+
+.card-close__btn {
+    width: 120px;
+    margin-bottom: 30px;
+    padding: 5px 10px; 
+    font-size: 18px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
